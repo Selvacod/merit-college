@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Application form</title>
+  <style>
+   
+      h1{
+      text-align:center;
+      font-family: 'Times New Roman', Times, serif;
+      margin:50px;
+      font-size: 50px;
+      }
+    .app{
+      padding:20px;
+      margin:0 0 0 230px;
+    }
+    .name{
+      font-size:25px;
+      font-family: fantasy;
+      padding:2px;
+      }
+    .fname,.lname{
+      height:25px;
+      width:130px;
+      margin:5px;
+      border:1px solid black;
+      border-radius:5px;
+    }
+    .gen{
+      font-size: 25px;
+      font-family: fantasy;
+      padding:2px;
+    }
+    .gender{
+      height:30px;
+      width:130px;
+      border:1px solid black;
+      border-radius:5px;
+    }
+    .dob{
+      font-size:25px;
+      font-family: fantasy;
+      padding:2px;
+    }
+    .date{
+      height:25px;
+      width:130px;
+      border: 1px solid black;
+      border-radius:5px;
+    }
+    .pn{
+      font-size:25px;
+      font-family: fantasy;
+      padding:2px;
+    }
+    .num{
+      height:30px;
+      width:200px;
+      border:1px solid black;
+      border-radius: 5px;
+    }
+    .con{
+      font-size:13px;
+      font-family: fantasy;
+    }
+    .email{
+      font-size:25px;
+      font-family: fantasy;
+      padding:2px;
+    }
+    .mailid{
+      height:25px;
+      width:250px;
+      border:1px solid black;
+      border-radius:5px;
+    }
+    .mail{
+      font-size:16px;
+      font-family: fantasy;
+    }
+    body{
+      background:linear-gradient(lightblue, white);
+      height: 100%;
+      width:100%;
+      background-repeat: no-repeat;
+    }
+    .sub{
+      padding:10px;
+      margin:20px 0 0 140px;
+      height: 50px;
+      width:140px;
+      font-size:25px;
+      font-family: fantasy;
+      background-color: #7f8fa6;
+      border-radius:10px;
+    }
+    .sub:active{
+      background-color: #718093;
+      transition-duration: 0.2s;
+    }
+  </style>
+</head>
+<body>
+  <h1>Application Form</h1>
+ <form class="app">
+   <p class="name">Name</p>
+   <input type="text" placeholder="First name"class="fname" />
+   <input type="text" placeholder="Last name"class="lname" />
+   <br><br><br>
+   
+   
+   <p class="gen">Gender</p>
+   <select class="gender">
+     <option>Male</option>
+     <option>Female</option>
+     <option>Others</option>
+   </select><br><br><br>
+   
+   
+   <p class="dob">Date of Birth</p>
+   <input type="date" class="date"/><br><br><br>
+   
+   
+   <p class="pn">Phone Number</p>
+   <input type="number"class="num"placeholder="Enter Your Number"/><p class="con">Please enter your valid phnone number</p>
+     <br><br>
+     
+     
+     <p class="email">E-mail</p>
+     <input type="email" placeholder="Enter you mail id" class="mailid"/>
+     <p class="mail">merit@gmail.com</p>
+     
+     
+     <button type="button" class="sub">Submit</button>
+    </form>
+   
+</body>
+
+</html>
